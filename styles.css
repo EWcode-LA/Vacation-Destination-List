@@ -1,5 +1,7 @@
 /* baseline CSS settings */
 
+/* will refactor using css bootstrap */
+
 h1, h2, h3, h4, ul, li, p {
     margin: 0;
     padding: 0;
@@ -58,4 +60,10 @@ input, textarea, #destination_details_form button {
     border: 1px solid #666;
     padding: 10px;
     box-sizing: border-box;
+}
+
+.card {
+    padding: 20px;
+    background-color: lightgrey;
+    margin-bottom: 20px;
 }
