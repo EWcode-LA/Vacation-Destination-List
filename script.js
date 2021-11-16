@@ -35,10 +35,10 @@ for( var i=0; i<detailsForm.length; i++ )
 
     document.querySelector("#destinations_container").appendChild(destCard);
 }
-
+// issue with photoURL or photo not displaying
 function createDestinationCard(name, location, photoURL, description){
 
-    var card = document.createElement(div);
+    var card = document.createElement("div");
     card.className = "card";
 
     var img = document.createElement("img");
